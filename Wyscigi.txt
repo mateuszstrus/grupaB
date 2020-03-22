@@ -1,0 +1,51 @@
+Projekt samochodu jaki proponuje to zwyk³y samochód, który mo¿na spotkaæ u typowego Janusza czyli Passat.
+
+Podzia³ zadañ:
+Andrzej: Trakcja (ko³a/kierownica) 
+Mateusz:Sterowanie (elektryka/liczniki)
+Ja(Adrian): Napêd(silnik/skrzynia) + testy
+
+
+
+Skrócony zapis:
+1. Aby ruszyæ z miejsca trzeba mieæ jakieœ auto (Pierwsze obiekty to auta)
+2. Auto ma mieæ silnik (obiekt), ko³a(tak¿e obiekt) i paliwo (obiekt)
+3. Sam start to nie wszystko. Trzeba czasami hamowaæ, zmieniæ kierunek a czasami naprawiæ usterki.
+4. Gdy osi¹gnie siê okreœlony przebieg coœ musi siê zepsuæ.
+
+
+Auto:
+Auto ma mieæ 4 ko³a, silnik, moc wystarczaj¹c¹ do ruszenia z miejsca(turbo/kompresor). Nic nie stoi na przeszkodzie aby zaszaleæ.
+
+Paliwa:
+- Benzyna 95/98
+- Wiêcej mocy = alkohol. Jest mniej kaloryczny wiêc trzeba go wiêcej. 
+- Benzyna + gaz
+- Diesel
+
+Silnik:
+Co kto woli. Im wiêksza moc tym szybciej siê zu¿ywa (sprzêg³o, hamulce, opony).
+
+Elektryka
+Tutaj mo¿na zrobiæ fajn¹ zabawê obiektowo, gdy¿ sporo modeli (podaje przyk³ad insignii) lubi wariowaæ na tym punkcie.
+
+
+
+Najwiêksz¹ klas¹ (obiektem) jaki planuje to bêdzie samochód, do którego bêd¹ siê odwo³ywaæ podobiekty (podklasy)
+
+Pocz¹tkowe za³o¿enia:
+Zap³on - mam gotowy z samochodu funkcyjnego wiêc mogê zaimplementowaæ. Dopiszê w³¹czenie pompy paliwa i dodatkowych ch³odnic
+Ko³a czyli trakcja - Andrzej. Im wiêksza fantazja tym bêdzie ciekawiej ale i trudniej :D
+Paliwo - Biorê dla siebie bo to kwestia napêdowa
+Silnik - Jego pracê mogê wzi¹c na siebie.  Typy silników chcia³bym przerobiæ wspólnie.
+Sterowanie elektyk¹ i licznikami - Mateusz
+Procedura jazdy na suchym i mokrym - proponuje aby ka¿dy do³o¿y³ swoj¹ cegie³kê.
+Usterki - aby nie by³o kolorowo to trzeba coœ zrobiæ ;D. Ja siê na samochodach nie znam wiêc ktoœ coœ? :D
+Zmiana biegów - Mam gotow¹ sekwencyjn¹ (je¿eli bêdzie dla was git). Przepiszê na obiekt
+Hydrauliczny hamulec rêczny - ktoœ coœ? Bêdziemy siê w to bawiæ? :)
+
+
+Dodatkowe pomys³y:
+- Dodatkowa elektryka samochodu
+- Graficzny interfejs u¿ytkotkownika
+- Pakiet innych pojazdów do wyboru (samochody/motocykle/autobusy)
