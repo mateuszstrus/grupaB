@@ -1,0 +1,11 @@
+Założenie co do budowy koła samochodowego
+Projekt koła bedzie sładał sie z następujących elementów
+Obiekt Koło składa się z następujących obiektów
+1) Piasta
+2) Felga
+3) Opona
+  a) Rodzaj bieżnika - Terenowy, Szosowy, Torowy
+  b) Rodzaj Sezonu - Zima Lato Całoroczne
+  c) Rozmiar opony - średnica szerość wysokość
+4) Rodzaj hamulców
+  a) 
