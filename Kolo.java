@@ -17,20 +17,27 @@ public class Kolo
         kLewyTyl = 20;
         kPrawyTyl = 20;
 */
+        String felgapl;String felgapp;String felgatl;String felgatp;
 
-        System.out.println("Koło przednie lewe ");
-        String felgapl;
         new FELGA.Felga(16.0, 5.0, "Stal");
         felgapl = Felga.retRFelgaInfo;
-
-        ; /*{
-            public String toString() {
-                return super.toString();
-            }
-        };*/
- //
-        System.out.println(Felga.retRFelgaInfo);
+        new FELGA.Felga(16.0, 5.0, "Stal");
+        felgapp = Felga.retRFelgaInfo;
+        new FELGA.Felga(20.0, 5.5, "Aluminium");
+        felgatl = Felga.retRFelgaInfo;
+        new FELGA.Felga(20.0, 5.5, "Aluminium");
+        felgatp = Felga.retRFelgaInfo;
+        System.out.println("Koło przednie lewe ");
         System.out.println(felgapl);
+        System.out.println("Koło przednie prawe ");
+        System.out.println(felgapp);
+        System.out.println("Koło tylne lewe ");
+        System.out.println(felgatl);
+        System.out.println("Koło tylne prawe ");
+        System.out.println(felgatp);
+ //
+//        System.out.println(Felga.retRFelgaInfo);
+ //       System.out.println(felgapl);
         Opona oponapl = new Opona() {
             public String toString() {
                 return super.toString();
@@ -38,7 +45,7 @@ public class Kolo
         };
         System.out.println(Opona.guma);
 
-  //      System.out.println(oponapl);
+  /*      System.out.println(oponapl)
 
         System.out.println("Koło przednie prawe ");
         Felga felgapp = new FELGA.Felga(16.0, 5.0, "Stal");
@@ -57,6 +64,8 @@ public class Kolo
   //      String FelgaInfo = Felga.getRFelgaInfo;
   //      System.out.println(FelgaInfo);
   //      System.out.println(felgatp);
+
+ */
     }
     private static class Felgalp {
     }
