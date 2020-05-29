@@ -21,7 +21,7 @@ public class Manual {
             System.out.println("Nie piłuj silnika !!!");
         }
 
-
+//
     }
 
 }

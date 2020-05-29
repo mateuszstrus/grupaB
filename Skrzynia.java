@@ -4,5 +4,7 @@ public class Skrzynia {
         Manual M1 = new Manual();
 
         System.out.println(M1.obroty());
+
+        //
     }
 }
